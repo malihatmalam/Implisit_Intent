@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/Margin_master"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EditText_Website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Website_Url_Text"
+        />
+
+    <Button
+        android:id="@+id/Button_Open_Website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorButton"
+        android:layout_marginTop="10dp"
+        android:text="@string/button_uri"
+        android:textColor="@color/colorTextButton"
+        android:onClick="openWebsite"/>
+
+    <EditText
+        android:id="@+id/EditText_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tegal"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Button_Open_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorButton"
+        android:layout_marginTop="10dp"
+        android:text="@string/button_loc"
+        android:textColor="@color/colorTextButton"
+        android:onClick="openLocation"/>
+
+    <EditText
+        android:id="@+id/EditText_Share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_share"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Button_Open_Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorButton"
+        android:layout_marginTop="10dp"
+        android:text="@string/button_share"
+        android:textColor="@color/colorTextButton"
+        android:onClick="openShare"/>
+
+</LinearLayout>
